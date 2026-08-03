@@ -157,8 +157,6 @@ The following models were trained and compared:
 | 7 | AdaBoost | 81.01% |
 | 8 | Logistic Regression | 78.07% |
 
-![Model Accuracy Comparison](assets/model_accuracy_comparison.png)
-
 Random Forest achieved the highest baseline accuracy and was selected for further tuning.
 
 ---
