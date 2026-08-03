@@ -265,31 +265,33 @@ Track prediction quality over time because booking behaviour, pricing, seasonali
 ## Project Structure
 
 ```text
-Hotel-Haven/
+Hotel_Haven/
+│
+├── .venv/
 │
 ├── assets/
 │   ├── booking_status_distribution.png
 │   ├── categorical_features_by_booking_status.png
+│   ├── correlation_heatmap_features.png
 │   ├── correlation_heatmap_with_booking_status.png
 │   ├── lead_time_average_price_boxplots.png
 │   ├── lead_time_average_price_distributions.png
-│   ├── model_accuracy_comparison.png
 │   ├── tuned_random_forest_confusion_matrix.png
 │   ├── tuned_random_forest_feature_importance.png
 │   └── tuned_random_forest_roc_curve.png
 │
 ├── data/
-│   └── hotel_booking.csv
+│   └── booking.csv
+│
+├── model/
 │
 ├── notebook/
-│   └── hotel_haven_booking.ipynb
+│   └── Hotel_Haven.ipynb
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
-
-Update the data and notebook filenames above to match the exact names used in the repository.
 
 ---
 
